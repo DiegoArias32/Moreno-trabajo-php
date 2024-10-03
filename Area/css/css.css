@@ -1,0 +1,172 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+  }
+
+  /* Estilos para el contenedor */
+  .contenedor {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilos para los resultados */
+  .resultado {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .resultado:hover {
+    background-color: #e6e6e6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px); /* Cambia el valor de -10px a -5px */
+  }
+
+  /* Estilos para los títulos */
+  .resultado h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  /* Estilos para los iconos */
+  .resultado i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  /* Estilos para los colores */
+  .salario {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+
+  .salario:hover {
+    background-color: #c6e2b5;
+  }
+
+  .salud {
+    background-color: #d9edf7;
+    color: #31708f;
+  }
+
+  .salud:hover {
+    background-color: #b3d9ef;
+  }
+
+  .pension {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+
+  .pension:hover {
+    background-color: #e4d6d6;
+  }
+
+  .arl {
+    background-color: #f0f0f0;
+    color: #666;
+  }
+
+  .arl:hover {
+    background-color: #d9d9d9;
+  }
+
+  .subtrans {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+
+  .subtrans:hover {
+    background-color: #c6e2b5;
+  }
+
+  .retencion {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+
+  .retencion:hover {
+    background-color: #e4d6d6;
+  }
+
+  .extra {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+
+  .extra:hover {
+    background-color: #c6e2b5;
+  }
+
+  .deducible {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+
+  .deducible:hover {
+    background-color: #e4d6d6;
+  }
+
+  .totalpagar {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+
+  .totalpagar:hover {
+    background-color: #c6e2b5;
+  }
+
+  .titulo {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo i {
+  font-size: 48px;
+  margin-left: 10px;
+  color: #337ab7;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 10px 30px;
+    border: none;
+    margin-top: -10px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #23527c;
+  }
